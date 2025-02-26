@@ -1,4 +1,4 @@
 import { Prefix } from "./class/prefix";
 
-const prefix = new Prefix(" ");
-prefix.getStatus("err");
+const prefix = new Prefix("meuprograma");
+console.log(`${prefix.getStatusWithFullDate("err")} hello World!`);
